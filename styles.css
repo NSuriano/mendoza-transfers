@@ -6,22 +6,175 @@
     list-style: none;
 }
 
-header {
-    background: #7B2B45;
+body {
     width: 100%;
-    height: 100px;
-    color:ivory;
+    height: auto;
+    background: rgba(245, 245, 245, 0.929);
 }
 
-header h1 {
+main {
     font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 200;
+    font-weight: 300;  
+}
+
+/*encabezado*/
+
+header {
+    width: 100%;
+    height: 13%;
+    display: flex;   
+    align-items: center;  
+    gap: 28%;
+    padding: 25px;
+    justify-content: left;
+    line-height: 1.5;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+}
+
+header h2, h4 {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
     text-align: center;
 }
 
-header p{
+header h1{
     font-family: "Julius Sans One", sans-serif;
     font-size: 1.5rem;
     text-align: center;
     color: #7da4a6;
+    text-align: center;
 }
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    height: 50%;
+    margin-top: 30px;
+
+}
+
+.flex {
+    display: flex;
+    margin: 0 25px;
+    gap: 45px;
+    align-items: center;
+    border: 1px solid #3838389d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 3px #80808044;
+   
+}
+ .foto img {
+    width: 45vw;
+    height: 463px;
+    border-radius: 10px 0 0 10px;
+
+ }
+
+ .lema {
+    position: absolute;
+    color:ivory;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin: 20px;
+    left: 10%;
+
+ }
+
+ .lista{
+    
+    font-family: "Bai Jamjuree", sans-serif;
+
+    i {
+        font-size: 30px;
+        color:darkgoldenrod;
+      
+    }
+
+ }
+
+ 
+ .lista ul li {
+    margin-bottom: 25px;
+    align-items: center;
+    line-height: 1.5;
+ }
+
+ .whatsapp i {
+    color: forestgreen;
+    font-size: 18px;
+ }
+
+ .lista .contacto {
+    text-align: center;
+    margin-left: 40%;
+    margin-top: -8px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #232323;
+    border: none;
+    box-shadow: 2px 2px 5px 2px #80808087;
+
+    a {
+        color:rgb(189, 141, 19);
+        padding: 10px;
+    }
+   
+ }
+
+ .lista .contacto:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(184, 137, 20);
+ }
+
+ main h2 {
+    margin: 80px 25px 30px 25px;
+    font-weight: 400;
+ }
+
+ .populares {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-left: 10px;
+    overflow: auto;
+ }
+
+ .populares .cards {
+    width: 20%;
+    height: 250px;
+    border: 1px solid #232323;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px #80808087;
+   
+
+    img {
+        width: 100%;
+        height: 170px;
+        border-radius: 10px 10px 0 0;
+    }
+ }
+
+ .formulario {
+  
+    display: flex;
+    border: 1px solid #232323;
+    margin: 70px 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 3px #80808044;
+}
+
+.formulario .personalizar {
+    margin: -10px 10px;
+     i {
+      
+     }
+   
+}
+
+
