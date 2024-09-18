@@ -9,7 +9,8 @@
 body {
     width: 100%;
     height: auto;
-    background: #f5f5f5ed;
+    background:#f7eedda1;
+    /*background: #f5f5f5ed; */
 }
 
 main {
@@ -21,13 +22,14 @@ main {
 
 header {
     width: 100%;
-    height: 13%;
+    height: 19%;
     display: flex;   
     align-items: center;  
-    gap: 28%;
+    gap: 30px;
     padding: 25px;
-    justify-content: left;
+    justify-content: center;
     line-height: 1.5;
+    background:#f2e8d6cd;
 }
 
 #logo {
@@ -54,7 +56,7 @@ header h1{
 .banner {
     width: 100%;
     height: 50%;
-    margin-top: 30px;
+  
 
 }
 
@@ -66,7 +68,7 @@ header h1{
     border: 1px solid #3838389d;
     border-radius: 10px;
     box-shadow: 5px 5px 15px 3px #80808044;
-   
+    background: #f9f7f7f2;
 }
  .foto img {
     width: 45vw;
@@ -133,24 +135,32 @@ header h1{
  }
 
  main h2 {
-    margin: 80px 25px 30px 25px;
+    margin: 115px 25px 30px 25px;
     font-weight: 400;
  }
 
  .populares {
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     gap: 18px;
     margin-left: 10px;
-    overflow: auto;
+    overflow: scroll;
+    height: auto;
+  
+    
  }
 
  .populares .cards {
-    width: 20%;
-    height: 250px;
-    border: 1px solid #232323;
+    flex: 1 0 auto;
+    width: 215px;
+    height: 265px;
+    border: 1px solid #595858;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 2px #80808087;
+    background: #f9f7f7fe;
+    text-align: left;
+    margin-bottom: 15px;
    
 
     img {
@@ -158,53 +168,107 @@ header h1{
         height: 170px;
         border-radius: 10px 10px 0 0;
     }
+
+    h4 {
+        text-align: left;
+        padding-left: 3px;
+        font-weight: 500;
+        color: #232323;
+    }
+
+    p {
+        padding-left: 3px;
+    }
+    
+    
+ }
+
+ .populares button {
+    text-align: center;
+    width: 95px;
+    height: 30px;
+    background: #232323;
+    border-radius: 6px;
+    margin: 6px 55px;
+
+    
+    a{
+        color:#bd8d13;
+    }
  }
 
 .formulario {
-    width: calc(100%-50px);
+    width: calc(100%-60px);
     height: 385px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #232323;
-    margin: 70px 25px;
+    border: 1px solid #2323236c;
+    margin: 30px 30px;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px 3px #80808044;
+    box-shadow: 5px 5px 15px 3px #23232321;
     background: #f9f7f7f2;
 }
 
 .personalizar {
     width: 50%;
-    padding-left: 45px;
-    margin-top: -50px;
+    
+  
     i{
         font-size: 20px;
         color:#b88914
         
     }
+
+    img {
+        width: 98%;
+        height: 383px;
+        border-radius: 10px 0 0 10px;
+        margin-bottom: -5px;
+        
+    }
+
+    p{
+        color: ivory;
+        font-size: 1.3rem;
+        position: absolute;
+        background: #37aeee;
+        padding: 5px 9px;
+    }
+}
+
+.personalizar #pie {
+    margin-top: -70px;
+    margin-left: 355px;
+    
+}
+
+.personalizar  #disponibilidad {
+    margin-top: -365px;
+    margin-left: 140px;
+
 }
 
 form {
     width: 50%;
-    padding-left: 40px;
+    padding-left: 12%;
     
 }
 
 form input {
     display: block;
     margin: 13px 0;
-    width: 60%;
+    width: 70%;
     height: 40px;
     background: transparent;
-    border-bottom: 2px solid #b88914;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: 1px solid #b88914;
+    padding: 3px;
+    
 
 }
 
 form textarea {
-    width: 60%;
+    width: 70%;
     background: transparent;
     margin: 10px 0;
     border: 2px solid #b88914;
@@ -212,12 +276,12 @@ form textarea {
 
 form button {
     display: block;
-    width: 60%;
+    width: 70%;
     height: 40px;
     border-radius: 10px;
     background: #232323;
     color: #bd8d13;
-    margin-top: 15px;
+    margin-top: 10px;
     border: none;
 
 } 
