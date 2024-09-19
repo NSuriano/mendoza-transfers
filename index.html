@@ -10,7 +10,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Julius+Sans+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
+
+<link rel="stylesheet" href="styles.css" />
     <title>Mendoza Transfers</title>
   </head>
 
@@ -32,7 +33,7 @@
     
         <div class="flex">
         <div class="foto">
-          <h2 class="lema"><strong>Contactenos <i class='bx bxl-whatsapp'></i> +5492615569387</strong></h2>
+          <h2 class="lema"><strong>Viaje seguro con estilo</strong></h2>
           <img src="imagenes/banner.png" alt="auto entre viñedos" />
         </div>
 
@@ -67,7 +68,7 @@
               </p>
             </li>
            </ul>
-           <button class="contacto"><a href="">Contactenos</a></button>
+           <button class="contacto"><a href="https://api.whatsapp.com/send?phone=5492615569387" target="_blank"><i class='bx bxl-whatsapp'></i> Contáctenos</a></button>
         </div>
     </div>
     
@@ -80,43 +81,43 @@
          <img src="imagenes/bodegas.jpg" alt="bodega">
          <h4>Recoridos por bodegas</h4>
          <p>Duración: full day</p>
-         <button><a href="" target="_blank">Consultar</a></button>
+         <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
         </div>
         <div class="montaña cards">
             <img src="imagenes/aconcagua.png" alt="aconcagua">
             <h4>Recorrido Alta montaña</h4>
             <p>Duración: Full day</p>
-            <button><a href="" target="_blank">Consultar</a></button>
+            <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
         </div>
         <div class="ciudad cards">
             <img src="imagenes/parque.png" alt="parque">
             <h4>Recorrido por la cuidad</h4>
             <p>Duración: 3 horas.</p>
-            <button><a href="" target="_blank">Consultar</a></button>
+            <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
         </div>
         <div class="villavicencio cards">
             <img src="imagenes/villavicencio.png" alt="villavicencio">
             <h4>Recorrido a Villavicencio</h4>
             <p>Duración: Half day</p>
-            <button><a href="" target="_blank">Consultar</a></button>
+            <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
         </div>
         <div class="potrerillos cards">
             <img src="imagenes/tunel.png" alt="dique">
             <h4>Recorrido a Potrerillos</h4>
             <p>Duración: Half day</p>
-            <button><a href="" target="_blank">Consultar</a></button>
+            <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
         </div>
         <div class="globos cards">
           <img src="imagenes/tunel.png" alt="globos">
           <h4>Recorrido a Junin</h4>
           <p>Duración: Half day</p>
-          <button><a href="" target="_blank">Consultar</a></button>
+          <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
       </div>
       <div class="rafael cards">
         <img src="imagenes/tunel.png" alt="río">
         <h4>Recorrido a San Rafael</h4>
         <p>Duración: Half day</p>
-        <button><a href="" target="_blank">Consultar</a></button>
+        <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
     </div>
               
       </section>
@@ -134,26 +135,40 @@
         </div>
 
         
-         <form>
+         <form action="" method="post" name="nuevo-translado">
             <input type="text" name="nombre" placeholder="Nombre Completo" required>
             <input type="mail" name="mail" placeholder="Email" required>
-            <input type="text" name="destino" placeholder="Destino" required>
-            <textarea cols="5" rows="5" placeholder="consulte fecha y hora..."></textarea>
-            <button id ="enviar" type="submit">Consultar</button>
+            <input type="text" name="destino" placeholder="Ciudad de Origen" required>
+            <textarea cols="5" rows="5" placeholder="Haga su consulta..."></textarea>
+            <button id ="enviar" type="submit" >Consultar</button>
          </form> 
         
 
       </section>
 
-      <div class="exepciones">
+      <div id="whatsapp">
 
-      </div>
-       
+        <a href="https://api.whatsapp.com/send?phone=5492615569387" target="_blank">
+          <i class='bx bxl-whatsapp'></i></a>
+     </div>
+
+    </main>
+
       <footer>
+
+        <div class="sociales">
+          <h3>Siguenos en redes sociales</h3>
+          <a href="" target="_blank"><img src="imagenes/instagramLogo.png" alt="instagram"></a>
+          <a href="" target="_blank"><img src="imagenes/facebookLogo.png" alt="facebook"></a>
+        </div>
+
+        <div class="creditos">
         <p>Desarrollado por Norma Suriano para Mendoza transfers</p>
         <p>Todos los derechos reservados - 2024</p>
-      </footer>   
-    </main>
-    <footer></footer>
+        </div>
+      </footer> 
+       
+   
+    
   </body>
 </html>
