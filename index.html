@@ -20,7 +20,7 @@
       <img id="logo" src="imagenes/logo-mendoza-transfers.png" alt="logo" />
       
       <div class="presentacion">
-      <h2>Bienvenidos a</h2>
+      <h2>Bienvenidos <span>a</span></h2>
       <h1>Mendoza Transfers<h1>
       
       </div> 
@@ -32,7 +32,8 @@
       <section class="banner">
     
         <div class="flex">
-        <div class="foto">
+        
+          <div class="foto">
           <h2 class="lema"><strong>Viaje seguro con estilo</strong></h2>
           <img src="imagenes/banner.png" alt="auto entre viñedos" />
         </div>
@@ -78,10 +79,10 @@
 
         <div class="bodegas cards">
 
-         <img src="imagenes/bodegas.jpg" alt="bodega">
+         <img src="imagenes/uvas.png" alt="bodega">
          <h4>Recoridos por bodegas</h4>
          <p>Duración: full day</p>
-         <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
+         <button><a href="mailto:info@mendozatransfers.com?subject=Recorrido%20bodegas" target="_blank">Consultar</a></button>
         </div>
         <div class="montaña cards">
             <img src="imagenes/aconcagua.png" alt="aconcagua">
@@ -108,15 +109,15 @@
             <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
         </div>
         <div class="globos cards">
-          <img src="imagenes/tunel.png" alt="globos">
+          <img src="imagenes/globo.png" alt="globos">
           <h4>Recorrido a Junin</h4>
           <p>Duración: Half day</p>
           <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
       </div>
       <div class="rafael cards">
-        <img src="imagenes/tunel.png" alt="río">
+        <img src="imagenes/rafael.png" alt="río">
         <h4>Recorrido a San Rafael</h4>
-        <p>Duración: Half day</p>
+        <p>Duración: Full day</p>
         <button><a href="mailto:info@mendozatransfers.com" target="_blank">Consultar</a></button>
     </div>
               
@@ -129,18 +130,20 @@
         <div class="personalizar">
           
           <img src="imagenes/Personaliza.png" alt="cartel personalizado">
-                    <p id="disponibilidad"><strong>Consulta disponibilidad</strong></p>
+          
+          <p id="disponibilidad"><strong>Consulta disponibilidad</strong></p>
           <p id="pie"><strong>Fácil y rápido</strong></p>
          
         </div>
 
         
-         <form action="" method="post" name="nuevo-translado">
+         <form action="https://formsubmit.co/info@mendozatransfers.com" method="POST"  name="consulta">
             <input type="text" name="nombre" placeholder="Nombre Completo" required>
             <input type="mail" name="mail" placeholder="Email" required>
-            <input type="text" name="destino" placeholder="Ciudad de Origen" required>
+            <input type="text" name="origen" placeholder="Ciudad de Origen" required>
             <textarea cols="5" rows="5" placeholder="Haga su consulta..."></textarea>
             <button id ="enviar" type="submit" >Consultar</button>
+           
          </form> 
         
 
