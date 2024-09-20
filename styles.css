@@ -70,7 +70,7 @@ header h1{
     margin: 20px 45px;
     gap: 45px;
     align-items: center;
-    border: 1px solid #3838389d;
+    border: 1px solid #6d6c6c;
     border-radius: 10px;
     box-shadow: 5px 5px 15px 3px #80808044;
     background: #f9f7f7f2;
@@ -510,6 +510,13 @@ form button {
 
         .sociales {
             margin-bottom: 20px;
+        }
+
+        .creditos a {
+            color: whitesmoke;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 2px;
         }
     }    
     
