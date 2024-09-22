@@ -4,6 +4,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+  
 }
 
 body {
@@ -24,24 +25,27 @@ main {
 header {
     width: 100%;
     height: 20%;
-    gap: 30px;
     padding: 35px 0 25px 0;
     line-height: 1.5;
+    padding-left: 35px;
     
   
 }
 
-.presentacion {
+
+.encabezado {
     display: flex;   
     align-items: center;  
+    gap:20px;
+    text-align: center;
     justify-content: center;
-    gap: 10px;
-
+    margin-top: 30px;
 
 #logo {
     width: 45px;
     height: 45px;
-
+   
+    
   
 }
 
@@ -52,19 +56,24 @@ header {
     color:darkgoldenrod;
     text-align: center;
     font-weight: 900;
-    text-shadow: #2d2f30;
+    
+    
 }
 
 }
 
 
-header h2{
+.presentacion h2{
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: 400;
     text-align: center;
     color: #2d2f30;
     font-size: 2rem;
+    margin-top: -35px;
 }
+
+/*presentación*/
+
 
 
 
@@ -73,7 +82,7 @@ header h2{
 .banner {
     width: 100%;
     height: 55%;
-   
+    margin-top: 70px;
 
 }
 
@@ -98,17 +107,7 @@ header h2{
 
  }
 
- .lema {
-    position: absolute;
-    color:#0e377e;
-    font-family: "Julius Sans One", sans-serif;
-    font-weight: 800;
-    font-size: 1.2rem;
-    margin: 20px;
-    left: 10%;
-    z-index: 10;
-
- }
+ 
 
  .lista{
     
@@ -173,7 +172,7 @@ header h2{
  }
 
  main h2 {
-    margin: 115px 25px 30px 35px;
+    margin: 115px 25px 30px 45px;
     font-weight: 400;
     color: #222324;
  }
@@ -290,7 +289,7 @@ header h2{
 }
 
 .personalizar  #disponibilidad {
-    margin-top: -30vw;
+    margin-top: -34vw;
     margin-left: 10vw;
 
 }
@@ -391,10 +390,10 @@ form button {
 
   /*responsivo*/
 
-  @media(max-width: 600px) {
+  @media(max-width: 480px) {
 
     body {
-        width: 100%;
+        width: 100vw;
     
       
     }
@@ -405,8 +404,8 @@ form button {
         align-items: center;
     }
 
-    .presentacion {
 
+    .encabezado {
     
     #logo {
         width: 34px;
@@ -436,7 +435,7 @@ form button {
 
         img {
             width: 100%;
-            height: 290px;
+            height: 300px;
             border-radius: 10px 10px 0 0;
         }
     }
@@ -490,8 +489,8 @@ form button {
 
         #disponibilidad {
          z-index: 10;
-         margin-top: -69vw;
-         margin-left: 17vw;
+        margin-top: -63vw;
+         margin-left: 20vw;
          font-size: 1rem;
         }
         
@@ -511,7 +510,7 @@ form button {
 
     #whatsapp {
         bottom: 50px;
-        right: 80px;
+        right: 85px;
         top: 420px;
     }
     
@@ -522,7 +521,7 @@ form button {
         padding: 15px 30px;
 
         .sociales {
-            margin-bottom: 25px;
+            margin-bottom: 40px;
 
             img {
                 width: 30px;
