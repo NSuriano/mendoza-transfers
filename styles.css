@@ -394,6 +394,7 @@ form button {
 
     body {
         width: 100vw;
+
     
       
     }
@@ -406,6 +407,7 @@ form button {
 
 
     .encabezado {
+        margin-top: -5px;
     
     #logo {
         width: 34px;
@@ -414,14 +416,18 @@ form button {
     }
 
     h1 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        margin-top: 5px;
     }
 
     }
     
-    header h2 {
-       
-        font-size: 1.4rem;
+    .presentacion h2 {
+
+        margin-top: -70px;
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: 400;
        
         
     }
@@ -431,7 +437,8 @@ form button {
     .flex {
         padding-bottom: 20px;
         display: block;
-        margin: 0 17px;
+        margin: -14px 17px;
+        
 
         img {
             width: 100%;
