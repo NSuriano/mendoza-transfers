@@ -71,7 +71,7 @@ header {
     text-align: center;
     color: #2d2f30;
     font-size: 2rem;
-    margin-top: -60px;
+    margin-top: 10px;
     
 }
 
@@ -415,7 +415,9 @@ form button {
     background: #232323;    
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20%;
+    padding-top: 10px;
 
   }
 
@@ -432,7 +434,7 @@ form button {
 
   .sociales h3 {
     font-family: "Monserrat", sans-serif;
-    margin-top: 15px;
+    margin-top: 37px;
   }
 
   .creditos a {
@@ -441,7 +443,19 @@ form button {
 
   .creditos a:hover {
     color: darkgoldenrod;
-    transform: scale(1.05);
+    font-size: 1.1rem;
+  }
+
+  .creditos {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-top: 0;
+
+    h3 {
+        font-weight: 300;
+        font-size: 1rem;
+    }
   }
 
 
